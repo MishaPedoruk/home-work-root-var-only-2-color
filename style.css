@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.yellow_square{
+    width: 400px;
+    height: 80px;
+    background-color: var(--ys);
+    display: flex;
+    align-items: center;
+}
+.black_square{
+    height: 320px;
+    background-color: var(--bs);
+}
+h1{
+    font-size: var(--h1);
+}
+:root{
+    --ys: orange;
+    --bs: black;
+    --h1: 48px;
+}
